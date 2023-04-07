@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/viettel/static/css/main.efcef0a8.css",
+    "main.js": "/viettel/static/js/main.63746857.js",
+    "static/js/787.596c4548.chunk.js": "/viettel/static/js/787.596c4548.chunk.js",
+    "static/media/danhsachkenh.jpg": "/viettel/static/media/danhsachkenh.5a264c983a72ed22a0c6.jpg",
+    "static/media/kenhtruyenhinh.jpg": "/viettel/static/media/kenhtruyenhinh.7cce3ea5db7782e47682.jpg",
+    "static/media/cuahang.jpg": "/viettel/static/media/cuahang.db9968a063dee0fff781.jpg",
+    "static/media/unamed4.jpg": "/viettel/static/media/unamed4.d1ff6bdfcdec1c0af8f4.jpg",
+    "static/media/internet.jpg": "/viettel/static/media/internet.fff4cdeb4a0318a71e86.jpg",
+    "static/media/logo4.png": "/viettel/static/media/logo4.069675ce1c2b51d70214.png",
+    "static/media/slide3.jpg": "/viettel/static/media/slide3.bc45e8b47b2ad4ee1a5a.jpg",
+    "static/media/slide1.jpg": "/viettel/static/media/slide1.eb75261740f903dce9f2.jpg",
+    "static/media/slide2.jpg": "/viettel/static/media/slide2.95247a55f2d1c7187529.jpg",
+    "static/media/slick.svg": "/viettel/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/viettel/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/viettel/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/viettel/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/viettel/index.html",
+    "main.efcef0a8.css.map": "/viettel/static/css/main.efcef0a8.css.map",
+    "main.63746857.js.map": "/viettel/static/js/main.63746857.js.map",
+    "787.596c4548.chunk.js.map": "/viettel/static/js/787.596c4548.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efcef0a8.css",
+    "static/js/main.63746857.js"
+  ]
+}
