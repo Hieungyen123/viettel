@@ -1,0 +1,103 @@
+.contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    .flex {
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .content {
+            background-color: #202123;
+            margin-top: 100px;
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            justify-items: center;
+            padding: 30px;
+            gap: 10px;
+            width: 90%;
+            max-width: 900px;
+            .content-agile1 {
+                // background-color: grey;
+                display: flex;
+                justify-content: space-around;
+                flex-direction: column;
+                p {
+                    color: white;
+                }
+                .content-phoneNum {
+                    strong {
+                        color: rgb(0, 153, 153) !important;
+                    }
+                }
+            }
+            .content-agile2 {
+                .input-submit {
+                    width: 100px;
+                    border: 2px solid rgb(0, 153, 153,0.8);
+                    margin: 0 auto 20px;
+                    height: 35px;
+                    background-color: rgb(0, 153, 153,0.8) !important;
+                    outline: none;
+                    cursor: pointer;
+                    font-size: 16px;
+                    color: #fff;
+                    font-weight: 500;
+                }
+                input[type=text],select {
+                    width: 80%;
+                    max-width: 300px;
+                    height: 50px;
+                    padding: 0 15px;
+                    color: #fff;
+                    font-size: 17px;
+                    font-weight: 200;
+                    background-color: transparent;
+                    border-bottom: 5px solid #fff;
+                    border-top-color: transparent;
+                    border-left-color: transparent;
+                    border-right-color: transparent;
+                    font-family: 'Raleway', sans-serif;
+                    margin: 0 auto 20px;
+                    display: block;
+                    outline: none;
+                }
+                option {
+                    color: black;
+                }
+                .form-item {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                    .form-icon {
+                        // width: 50px;
+                    }
+                }
+                .form-item-submit {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .contact {
+        .flex {
+            .content {
+                background-color: #202123;
+                margin-top: 100px;
+                display: grid;
+                grid-template-columns: repeat(1,1fr);
+                .content-agile1 {
+                    margin: 30px 0  ;
+                }
+            }
+        }
+    }
+}

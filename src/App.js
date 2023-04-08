@@ -1,25 +1,62 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.scss';
+import { createContext } from 'react';
+// import {publicRoutes} from '../src/Routes/Route'
+import DefaultLayout from './components/DefaultLayout/DefaultLayout';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
+import ScrollToTop from './scrollToTop';
+import Home from './Pages/Home/Home';
+import Contact from './Pages/Contact/Contact';
+import Province from './Pages/Province/Province';
+
+
+export const ThemContext = createContext()
 function App() {
+
+  const Layout = DefaultLayout;
+  console.log('hahaah')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <React.Fragment>
+      <Router>
+        <div className="App">
+          <ScrollToTop/>
+          <Routes>
+            <Route
+              exact
+              path='/'
+              element={
+                <ThemContext.Provider value={1}>
+                  <DefaultLayout >
+                    <Home />
+                  </DefaultLayout>
+                </ThemContext.Provider>
+              }
+            />
+            <Route
+              path='/Contact'
+              element={
+                <ThemContext.Provider value={3}>
+                  <DefaultLayout >
+                    <Contact />
+                  </DefaultLayout>
+                </ThemContext.Provider>
+              }
+            />
+            <Route
+              path='/Province'
+              element={
+                <ThemContext.Provider value={2}>
+                  <DefaultLayout >
+                    <Province />
+                  </DefaultLayout>
+                </ThemContext.Provider>
+              }
+            />
+          </Routes>
+        </div>
+      </Router>
+     </React.Fragment>
   );
 }
-
 export default App;

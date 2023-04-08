@@ -1,0 +1,97 @@
+.home {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+        padding: 20px;
+        margin-top: 100px;
+        .video-mesh {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;        
+            margin-top: 50px; 
+            flex-direction: column;
+            h2 {
+                width: 70%;
+                letter-spacing: 1px;
+                color: rgb(0 ,153, 153,1);
+                margin-bottom: 30px;
+            }
+            .video-mesh-div {
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center; 
+                .video {
+                    width: 90%;
+                    max-width: 700px;
+                    height: 30%;
+                    height:350px;
+                }
+            }
+        }
+        .title {
+            margin: 30px;
+            text-align: center;
+            
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            h2 {
+                width: 70%;
+                letter-spacing: 1px;
+                font-size: 30px;
+                color: rgb(0 ,153, 153,1);
+
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1000px) {
+    .home {
+        .content {
+            .title {
+                margin: 30px;   
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                h2 {
+                    width: 90%;
+                    letter-spacing: 1px;
+                    
+                    // color: rgba(25, 28, 47, 0.8);
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .home {
+        .content {
+            .title {
+                h2 {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 450px) {
+    .home {
+        .content {
+            .title {
+                h2 {
+                    display: block;
+                    width: 100%;
+                    text-align: left;
+                }
+            }
+        }
+    }
+} 

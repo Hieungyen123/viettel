@@ -1,0 +1,168 @@
+.RegisterWifi {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    .flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        align-items: center;
+        .RegisterWifi-title {
+            width: 90%;
+            .title {
+                color: rgb(0 ,153, 153,1);
+                
+            }
+            .content {
+                p {
+                    
+                }
+                
+            }
+            .image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width: 90%;
+                    max-width: 900px;
+                }
+            }
+        }
+
+        .packages-wifi {
+            width: 90%;
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            img {
+                margin-top: 20px;
+                width: 90%;
+                height: auto;
+                margin-bottom: 50px;
+            }
+            h2 {
+                text-align: center;
+                color: rgb(238, 0, 51);
+                // margin-bottom: 10px;
+            }
+            .title-packages {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+            }
+            .packages-item {
+                margin-top: 50px;
+                width: 80%;
+                .packages-item-title {
+                    .content-title-packages {
+                        margin-top: 10px;
+                        strong {
+                            color: rgb(0, 153, 153, 1);
+                        }
+                    }
+                }
+                .packages-item-table {
+                    margin-top: 50px;
+                }
+                .packages-item-bars {
+                    margin-top: 20px;
+                    
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    .bars {
+                        
+                        width: 50%;
+                        height: 2px;
+                        background-color: black;
+                    }
+                    
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .RegisterWifi {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        .flex {
+            padding: 10px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            // justify-content: center;
+            align-items: center;
+            .RegisterWifi-title {
+                width: 90%;
+                .title {
+                    color: rgb(0 ,153, 153,1);
+                    
+                }
+                .content {
+                    p {
+                        
+                    }
+                    
+                }
+                .image {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img {
+                        width: 90%;
+                        max-width: 900px;
+                    }
+                }
+            }
+    
+            .packages-wifi {
+                width: 100%;
+                margin-top: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                img {
+                    margin-top: 20px;
+                    width: 90%;
+                    height: auto;
+                    margin-bottom: 50px;
+                }
+                h2 {
+                    text-align: center;
+                    color: rgb(238, 0, 51);
+                    // margin-bottom: 10px;
+                }
+                .title-packages {
+                    display: flex;
+                    align-items: center;
+                    gap: 10px;
+                }
+                .packages-item {
+                    margin-top: 50px;
+                    width: 100%;
+                    .packages-item-title {
+
+                        }
+                    }
+
+                }
+            }
+            
+        }
+    }
+    

@@ -1,0 +1,233 @@
+.Province {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    .flex { 
+        width: 100%;
+        // display: flex;
+        // align-items: center;
+        // justify-content: center;
+        margin-top: 100px;
+        .content {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 50px;
+            flex-direction: column;
+            .title {
+                .title-h2 {
+                    margin-bottom: 40px;
+                    h2 {
+                        color: rgb(0, 153, 153,1);
+                    }
+                }
+                .title-content {
+                    p {
+                        margin-top: 10px;
+                    }
+                }
+            }
+            .body-content {
+                width: 100%;
+                margin-top: 20px;
+                .body-img {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+                    width: 100%;
+                    img {
+                        width: 80%;
+                        border-radius: 10px;
+                    }
+                    .body-item {
+                        position: absolute;
+                        left: 0;
+                        top: 20px;
+                        .item {
+                            padding: 20px;
+                            margin-bottom: 10px;
+                            min-width: 300px;
+                            display: flex;
+                            align-items: center;
+                            justify-content: flex-start;
+                            width: 80%;
+                            gap: 15px;
+                            min-height: 50px;
+                            border-radius: 30px;
+                            background-color: antiquewhite;
+                        }
+                    }
+                }
+            }
+            .last-content {
+                margin-top: 50px;
+                padding: 10px;
+                h2 {
+                    color: rgb(0, 153, 153);
+                    margin-bottom: 20px;
+                }
+                p {
+                    padding: 10px;
+                }
+                strong {
+                    font-size: 17px;
+                    color: rgb(43, 41, 41);
+                }
+                em {
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 730px)  {
+    .Province {
+        .flex { 
+            .content {
+                .body-content {
+                    
+                    .body-img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        .body-item {
+                            position: absolute;
+                            right: -25%;
+                            .item {
+                                margin-bottom: 10px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                width: 80%;
+                                gap: 10px;
+                                height: auto;
+                                padding: 10px;
+                                border-radius: 30px;
+                                background-color: antiquewhite;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 750px)  {
+    .Province {
+        .flex { 
+            .content {
+                .body-content {
+                    
+                    .body-img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        .body-item {
+                            position: absolute;
+                            right: -25%;
+                            top: 20px;
+                            width: 100%;
+                            .item {
+                                margin-bottom: 10px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: flex-start;
+                                width: 320px;
+                                gap: 10px;
+                                height: auto;
+                                padding: 10px;
+                                border-radius: 30px;
+                                background-color: antiquewhite;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 700px)  {
+    .Province {
+        .flex { 
+            .content {
+                .body-content {
+                    
+                    .body-img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: relative;
+                        img {
+                            width: 100%;
+                        }
+                        .body-item {
+                            position: absolute;
+                            right: -20%;
+                            width: 80%;
+                            .item {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .Province {
+        .flex { 
+            .content {
+                margin-top: 0;
+                .title {
+                    padding: 10px;
+                }
+                .body-content {
+                    
+                    .body-img {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        position: static;
+                        flex-direction: column-reverse; 
+                        img {
+                            width: 100%;
+                            display: none;
+                        }
+                        .body-item {
+                            width: 100%;
+                            position: static;
+                            display: grid;
+                            grid-template-columns: repeat(2,1fr);
+                            left: 0;
+                            // width: 80%;
+                            margin:  20px 0;
+                            justify-items: center;
+                            .item {
+                                max-width: 300px;
+                                min-width: 110px;
+                                display: block;
+                                text-align: center;
+                                width: 90%;
+                                padding: 10px;
+                                
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
