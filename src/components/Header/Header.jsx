@@ -81,7 +81,7 @@ function Header() {
                                         <li onClick={() => handleHideMenu()}>
                                             <Link to="/Province" className="page" onClick={() => handelNavbar(2)}>
                                                 <AdminPanelSettingsIcon className={cx('content-contact-icon')}/>
-                                                <p className = {activeTab === 2 ? 'active' : " "}>Uy tín</p>
+                                                <p className = {activeTab === 2 ? 'active' : " "}>Quy Trình</p>
                                             </Link>
                                         </li>
                                         <li onClick={() => handleHideMenu()} >
@@ -101,7 +101,7 @@ function Header() {
                                         <Link to="/" className={activeTab === 1 ? 'page active' : " page"} onClick={() => handelNavbar(1)}>Trang Chủ</Link>
                                     </li >
                                     <li onClick={() => handleHideMenu()}>
-                                        <Link to="/Province"  className={activeTab === 2 ? 'page active' : " page"} onClick={() => handelNavbar(2)}>Uy tín</Link>
+                                        <Link to="/Province"  className={activeTab === 2 ? 'page active' : " page"} onClick={() => handelNavbar(2)}>Quy Trình</Link>
                                     </li>
                                     <li onClick={() => handleHideMenu()}>
                                         <Link to="/Contact" className={activeTab === 3 ? 'page active' : " page"} onClick={() => handelNavbar(3)}>Liên Hệ</Link>

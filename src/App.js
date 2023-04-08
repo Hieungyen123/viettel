@@ -18,7 +18,6 @@ function App() {
   console.log('hahaah')
   return (
     <React.Fragment>
-      <Router>
         <div className="App">
           <ScrollToTop/>
           <Routes>
@@ -55,7 +54,6 @@ function App() {
             />
           </Routes>
         </div>
-      </Router>
      </React.Fragment>
   );
 }

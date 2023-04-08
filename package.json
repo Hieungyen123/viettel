@@ -2,7 +2,7 @@
   "name": "viettel-wifi",
   "version": "0.1.0",
   "private": true,
-  "homepage": "/",
+  "homepage": "http://Hieungyen123.github.io/viettel/#",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
