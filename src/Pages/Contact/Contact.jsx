@@ -14,6 +14,7 @@ function Contact() {
         <div className={cx('contact')}>
             <div className="container">
                 <div className={cx('flex')} >
+                    <div className={cx('title')} > <h2>VIETTEL-WIFI.NET WEBSITE DV INTERNET CÁP QUANG CHÍNH THỨC CỦA VIETTEL TELECOM. </h2></div>
                     <div className={cx('content')}>
                         <div className={cx('content-agile1')}> 
                             <div>

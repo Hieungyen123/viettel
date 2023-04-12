@@ -4,7 +4,7 @@ import { useEffect, useState,useContext } from "react";
 import styled from './Header.scss'
 import classNames from 'classnames/bind';
 import { ThemContext } from "../../App";
-
+import img from '../../Image/logoHeader.png'
 
 import MenuIcon from '@mui/icons-material/Menu';
 import HomeIcon from '@mui/icons-material/Home';
@@ -19,7 +19,6 @@ import { Link } from "react-router-dom";
 function Header() {
     const cx = classNames.bind(styled)
     const them = useContext(ThemContext)
-    console.log(them)
     const [headerDwon, setHeaderDwon] = useState("header");
     const [noneHeader,setNoneHeader] = useState(true)
     // const [noneLogo,setNoneLogo] = useState(true)
@@ -46,7 +45,6 @@ function Header() {
         };
     }, []);
     
-    console.log('render')
 
     const handleHideMenu = () => {
         setNoneMenu(!noneMenu)
@@ -64,7 +62,7 @@ function Header() {
                         <div className={cx('content-contact')}>
                             {/* logo  */}
                             <div className={cx('logo')}>
-                                <img width="130" height="45" src="http://viettel-wifi.net/wp-content/uploads/2022/10/Viettel_logo_2021.svg"  alt="Internet Viettel"></img>
+                                <Link  to="/"  onClick={() => handelNavbar(1)} ><img width="130" height="100%" src={img}  alt="Internet Viettel"></img></Link>
                             </div>
 
                             <div className={noneMenu ? 'content-contact-pages' : 'content-contact-pages hide'}>

@@ -3,7 +3,7 @@ import './App.scss';
 import { createContext } from 'react';
 // import {publicRoutes} from '../src/Routes/Route'
 import DefaultLayout from './components/DefaultLayout/DefaultLayout';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import ScrollToTop from './scrollToTop';
 import Home from './Pages/Home/Home';
@@ -15,7 +15,6 @@ export const ThemContext = createContext()
 function App() {
 
   const Layout = DefaultLayout;
-  console.log('hahaah')
   return (
     <React.Fragment>
         <div className="App">
@@ -26,9 +25,9 @@ function App() {
               path='/'
               element={
                 <ThemContext.Provider value={1}>
-                  <DefaultLayout >
+                  <Layout >
                     <Home />
-                  </DefaultLayout>
+                  </Layout>
                 </ThemContext.Provider>
               }
             />
