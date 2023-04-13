@@ -7,6 +7,12 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import PhonelinkRingIcon from '@mui/icons-material/PhonelinkRing';
 import BorderColorIcon from '@mui/icons-material/BorderColor';
 import CellWifiIcon from '@mui/icons-material/CellWifi';
+import SendIcon from '@mui/icons-material/Send';
+
+
+import LocationOnOutlinedIcon from '@mui/icons-material/LocationOnOutlined';
+import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
+import ForwardToInboxOutlinedIcon from '@mui/icons-material/ForwardToInboxOutlined';
 function Contact() {
     const cx = classNames.bind(styled);
 
@@ -14,12 +20,30 @@ function Contact() {
         <div className={cx('contact')}>
             <div className="container">
                 <div className={cx('flex')} >
-                    <div className={cx('title')} > <h2>VIETTEL-WIFI.NET WEBSITE DV INTERNET CÁP QUANG CHÍNH THỨC CỦA VIETTEL TELECOM. </h2></div>
+                    <div className={cx('title')} > 
+                        <h1>Chúng tôi có thể giúp gì cho bạn ? </h1>
+                        <p>Bạn đang có dự định lắp đặt Internet hoặc truyền hình cáp ?   Hãy để chúng tôi thực hiện mong muốn đó của bạn.</p>
+                    
+                    </div>
+                    <div className={cx('content-2')}>
+                        <div className={cx('item-content-2')}>
+                            <LocationOnOutlinedIcon  className={cx('item-content-2-icon')} />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aspernatur nam! Dolor, tempore. </p>
+                        </div>
+                        <div className={cx('item-content-2')}>
+                            <LocalPhoneOutlinedIcon  className={cx('item-content-2-icon')} />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aspernatur nam! Dolor, tempore. </p>
+                        </div>
+                        <div className={cx('item-content-2')}>
+                            <ForwardToInboxOutlinedIcon  className={cx('item-content-2-icon')} />
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse, aspernatur nam! Dolor, tempore. </p>
+                        </div>
+                    </div>
                     <div className={cx('content')}>
                         <div className={cx('content-agile1')}> 
-                            <div>
+                            <div className={cx('content-agile1-content')}>
                                 <h2>Thông tin liên hệ</h2>
-                                <p>Hãy để lại thông tin, chúng tôi sẽ tìm đến bạn</p>
+                                <p>Hãy để lại thông tin của bạn, chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.</p>
                             </div>
 
                             <div className={cx('content-phoneNum')}><p>Hoặc liên hệ trực tiếp với tôi: <strong>0336123337</strong></p></div>
@@ -55,8 +79,12 @@ function Contact() {
                                     </select>
                                 </div>
                                 <div className={cx('form-item-submit')}> 
-                                    
-                                    <input className={cx('input-submit')} type="submit"  value="Gửi"/>
+                                    <button   className={cx('input-submit')} >
+                                        <div  className={cx('wrapper')}>
+                                            <SendIcon className={cx('submit-icon')}/>
+                                        </div>
+                                        <span>Gửi</span>
+                                    </button>
                                 </div>
 
                             </form>

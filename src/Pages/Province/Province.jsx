@@ -1,7 +1,7 @@
 import React from "react";
 import styled from './Province.module.scss'
 import classNames from 'classnames/bind';
-import img from '../../Image/unamed4.jpg'
+import img from '../../Image/family.jpg'
 
 import WifiIcon from '@mui/icons-material/Wifi';
 import SecurityIcon from '@mui/icons-material/Security';
@@ -30,7 +30,7 @@ function Province() {
                         </div>
                         <div className={cx('body-content')} >
                             <div className={cx('body-img')}>
-                                <img src={img} alt="" />
+                                
                                 <div className={cx('body-item')}>
                                     <div className={cx('item')}>
                                         <SecurityIcon/>
@@ -42,13 +42,14 @@ function Province() {
                                     </div>
                                     <div className={cx('item')}>
                                         <CreditScoreIcon/>
-                                        <p>Ưu đãi nhấp dẫn.</p>
+                                        <p>Ưu đãi hấp dẫn.</p>
                                     </div>
                                     <div className={cx('item')}>
                                         <EmojiPeopleIcon/>
                                         <p>Tận tụy với khách hàng.</p>
                                     </div>
                                 </div>
+                                <img src={img} alt="" />
                             </div>
                         </div>
                         <div className={cx('last-content')} >

@@ -95,13 +95,13 @@ function Header() {
 
                             <div className={cx('content-Pages unshow')}>
                                 <ul className={cx('content-Pages-ul')}>
-                                    <li onClick={() => handleHideMenu()}>
+                                    <li >
                                         <Link to="/" className={activeTab === 1 ? 'page active' : " page"} onClick={() => handelNavbar(1)}>Trang Chủ</Link>
                                     </li >
-                                    <li onClick={() => handleHideMenu()}>
+                                    <li >
                                         <Link to="/Province"  className={activeTab === 2 ? 'page active' : " page"} onClick={() => handelNavbar(2)}>Quy Trình</Link>
                                     </li>
-                                    <li onClick={() => handleHideMenu()}>
+                                    <li >
                                         <Link to="/Contact" className={activeTab === 3 ? 'page active' : " page"} onClick={() => handelNavbar(3)}>Liên Hệ</Link>
                                     </li>
                                 </ul>

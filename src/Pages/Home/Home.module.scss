@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     .content {
-        padding: 20px;
+        // padding: 20px;
         margin-top: 100px;
         .video-mesh {
             width: 100%;
@@ -14,7 +14,7 @@
             margin-top: 50px; 
             flex-direction: column;
             h2 {
-                width: 70%;
+                width: 100%;
                 letter-spacing: 1px;
                 color: rgb(0 ,153, 153,1);
                 margin-bottom: 30px;
@@ -25,10 +25,10 @@
                 align-items: center;
                 justify-content: center; 
                 .video {
-                    width: 90%;
+                    width: 100%;
                     max-width: 700px;
-                    height: 30%;
-                    height:350px;
+                    height: 350px;
+                    
                 }
             }
         }

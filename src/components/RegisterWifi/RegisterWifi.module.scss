@@ -9,7 +9,7 @@
         display: flex;
         flex-direction: column;
         // justify-content: center;
-        align-items: center;
+        // align-items: center;
         .RegisterWifi-title {
             width: 90%;
             .title {
@@ -34,7 +34,7 @@
         }
 
         .packages-wifi {
-            width: 90%;
+            width: 100%;
             margin-top: 40px;
             display: flex;
             flex-direction: column;
@@ -42,7 +42,7 @@
             justify-content: center;
             img {
                 margin-top: 20px;
-                width: 90%;
+                width: 100%;
                 height: auto;
                 margin-bottom: 50px;
             }
@@ -58,7 +58,7 @@
             }
             .packages-item {
                 margin-top: 50px;
-                width: 80%;
+                width: 100%;
                 .packages-item-title {
                     .content-title-packages {
                         margin-top: 10px;
@@ -107,7 +107,7 @@
             // justify-content: center;
             align-items: center;
             .RegisterWifi-title {
-                width: 90%;
+                width: 100%;
                 .title {
                     color: rgb(0 ,153, 153,1);
                     

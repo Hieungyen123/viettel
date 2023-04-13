@@ -27,7 +27,7 @@ function RegisterWifi() {
             </div>
             <div className={cx("content")}>
               <p>
-                &nbsp; Khi cá nhân hay hộ gia đình có nhu cầu lắp mạng wifi cho
+                Khi cá nhân hay hộ gia đình có nhu cầu lắp mạng wifi cho
                 gia đình mình thì internet Viettel luôn là lựa chọn ưu tiên hàng
                 đầu.
               </p>
@@ -45,10 +45,10 @@ function RegisterWifi() {
                 <div className={cx("title-packages")}>
                   {" "}
                   <CellWifiIcon />{" "}
-                  <h4>
+                  <h3>
                     {" "}
                     <>1</>. Danh sách các gói cước internet cáp quang viettel
-                  </h4>
+                  </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
@@ -75,10 +75,10 @@ function RegisterWifi() {
                 <div className={cx("title-packages")}>
                   {" "}
                   <CellWifiIcon />{" "}
-                  <h4>
+                  <h3>
                     {" "}
                     <>2</>. Danh sách gói internet khu vực thành phố.
-                  </h4>
+                  </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
@@ -108,9 +108,9 @@ function RegisterWifi() {
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
                   <ConnectedTvIcon />
-                  <h4>
+                  <h3>
                         1. Bảng giá gói combo Truyền hình & internet Viettel – Áp dụng cho 63 tỉnh thành trừ TP.HCM & HN
-                  </h4>
+                  </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
@@ -136,11 +136,11 @@ function RegisterWifi() {
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
                   <ConnectedTvIcon />
-                  <h4>
+                  <h3>
                     {" "}
                     2. Bảng giá gói combo Truyền hình Box TV & internet Viettel
                     – Áp dụng cho khu vực TP.HCM & HN.
-                  </h4>
+                  </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
@@ -165,7 +165,7 @@ function RegisterWifi() {
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
                   <ConnectedTvIcon />
-                  <h4>3. Bảng giá gói combo Truyền hình App & internet Viettel – Áp dụng cho khu vực TP.HCM & HN</h4>
+                  <h3>3. Bảng giá gói combo Truyền hình App & internet Viettel – Áp dụng cho khu vực TP.HCM & HN</h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
@@ -203,9 +203,9 @@ function RegisterWifi() {
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
                   <BusinessIcon />
-                  <h4>
+                  <h3>
                         1. BẢNG GIÁ GÓI CƯỚC INTERNET DOANG NGIỆP.
-                  </h4>
+                  </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
                   <p>
