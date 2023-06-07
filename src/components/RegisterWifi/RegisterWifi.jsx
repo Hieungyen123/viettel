@@ -13,7 +13,7 @@ import Table4 from "../TableHome/Table4/Table4";
 import Table5 from "../TableHome/Table5/Table5";
 import Table6 from "../TableHome/Table6/Table6";
 import Table7 from "../TableHome/Table7/Table7";
-
+import Table8 from "../TableHome/Table8/Table8";
 
 import img from '../../Image/kenhtruyenhinh.jpg'
 import img2 from '../../Image/danhsachkenh.jpg'
@@ -41,7 +41,7 @@ function RegisterWifi() {
 
           <div className={cx("packages-wifi")}>
             <div>
-              <h2>Danh sách các gói internet</h2>
+              <h2>Danh Sách Các Gói Internet</h2>
             </div>
             <div className={cx("packages-item")}>
               <div className={cx("packages-item-title")}>
@@ -112,7 +112,7 @@ function RegisterWifi() {
                 <div className={cx("title-packages")}>
                   <ConnectedTvIcon />
                   <h3>
-                        1. Bảng giá gói combo Truyền hình & internet Viettel – Áp dụng cho 63 tỉnh thành trừ TP.HCM & HN
+                        1. Bảng giá gói combo Truyền hình & internet Viettel 
                   </h3>
                 </div>
                 <div className={cx("content-title-packages")}>
@@ -123,8 +123,8 @@ function RegisterWifi() {
                   </p>
                   <p>
                     - Truyền hình & internet Viettel Chỉ Áp dụng cho{" "}
-                    <strong>63 tỉnh thành</strong> trừ{" "}
-                    <strong>TP.HCM & HN</strong>
+                    <strong>61 tỉnh thành</strong> và{" "}
+                    <strong>Ngoại thành Hà nội</strong>
                   </p>
                 </div>
               </div>
@@ -193,7 +193,7 @@ function RegisterWifi() {
          
 
           <div className={cx("packages-wifi")}>
-            <div><h2>Danh sách các kênh truyền hình.</h2></div>
+            <div><h2>Danh Sách Các Kênh Truyền Hình.</h2></div>
             <img src={img} alt="" />
             <img src={img2} alt="" />
 
@@ -201,7 +201,7 @@ function RegisterWifi() {
           
 
           <div className={cx("packages-wifi")}>
-            <div><h2>Internet Viettel gói cước doanh nghiệp..</h2></div>
+            <div><h2>Internet Viettel Gói Cước Doanh Nghiệp..</h2></div>
             <div className={cx("packages-item")}>
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
@@ -229,7 +229,7 @@ function RegisterWifi() {
           </div>
 
           <div className={cx("packages-wifi")}>
-            <div><h2>Wifi 6 cho doanh nghiệp...</h2></div>
+            <div><h2>WIFI 6 Cho Doanh Nghiệp...</h2></div>
             <div className={cx("packages-item")}>
               <div className={cx("packages-item-title")}>
                 <div className={cx("title-packages")}>
@@ -249,6 +249,32 @@ function RegisterWifi() {
               </div>
               <div className={cx("packages-item-table")}>
                 <Table7 />
+              </div>
+              <div className={cx("packages-item-bars")}>
+                <div className={cx("bars")}></div>
+              </div>
+            </div>
+          </div>
+
+          <div className={cx("packages-wifi")}>
+            <div><h2>Chương Trình Khuyến Mại Internet Cáp Quang (WIFI)</h2></div>
+            <div className={cx("packages-item")}>
+              <div className={cx("packages-item-title")}>
+                <div className={cx("title-packages")}>
+                  <CellWifiIcon />
+                  <h3>
+                        1. BẢNG GIÁ INTERNET CÁP QUANG (WIFI).
+                  </h3>
+                </div>
+                <div className={cx("content-title-packages")}>
+                  <p>
+                    - <strong>Viettel Telecom</strong> ra mắt gói khuyến mãi hấp dẫn dành cho Internet cáp quang.
+                  </p>
+                  
+                </div>
+              </div>
+              <div className={cx("packages-item-table")}>
+                <Table8 />
               </div>
               <div className={cx("packages-item-bars")}>
                 <div className={cx("bars")}></div>

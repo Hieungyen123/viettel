@@ -25,6 +25,9 @@ body {
 .App {
   overflow: hidden;
 }
+td {
+  padding: 5px;
+}
 
 @media (min-width: 319px){
   .container {

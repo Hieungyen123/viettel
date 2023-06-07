@@ -1,7 +1,6 @@
 import styled from "./Table7.module.scss";
 import classNames from "classnames/bind";
 import SavingsIcon from '@mui/icons-material/Savings';
-
 function Table7() {
   const cx = classNames.bind(styled);
 
@@ -11,104 +10,69 @@ function Table7() {
         <tbody>
             <tr>
               <th rowSpan="2" >Gói Cước </th>
-              <th colSpan="2">Băng Thông</th>
-              <th rowSpan="2"> </th>  
-              <th rowSpan="2" >Giá cước hàng tháng đã có ( VAT )</th>  
+              <th colSpan="2">Tính Năng</th>
+              <th rowSpan="2">Cam Kết Tốc Độ Quốc Tế Tối Thiểu (Mbps) </th>  
+              <th rowSpan="2" >Giá bán đơn lẻ gồm VAT</th>  
             </tr>
             <tr>  
-              <th>  <span>Trong Nước</span></th>
-              <th> <span>Quốc Tế</span></th>
+              <th>  <span>Tốc Độ (Mbps)</span></th>
+              <th> <span>Mesh WIFI</span></th>
             </tr>
             <tr>
-              <td>  <span>F90N</span></td>
-              <td>  <span>	90Mbps </span></td>
-              <td>  <span>	2Mbps</span></td>
+              <td>  <span>PRO300</span></td>
+              <td>  <span>300</span></td>
               <td>  <span>không</span></td>
-              <td>  <span>	440.000đ</span></td>
+              <td>  <span>1</span></td>
+              <td>  <span>350.000đ</span></td>
             </tr>
             <tr>
-              <td>  <span>F90Basic</span></td>
-              <td>  	<span>	90Mbps</span></td>
-              <td>  <span>	1Mbps</span></td>
-              <td>  <span>	1 IP</span></td>
-              <td>  <span>	660.000đ  </span></td>
+              <td>  <span>PRO600</span></td>
+              <td>  <span>600</span></td>
+              <td>  <span>không</span></td>
+              <td>  <span>2</span></td>
+              <td>  <span>500.000đ </span></td>
             </tr>
             <tr>
-              <td>  <span>F90Plus</span></td>
-              <td>  <span>90Mbps</span></td>
-              <td>  <span>3Mbps</span></td>
-              <td>  	<span>	1 IP </span></td>
-              <td>  	<span>	880.000đ</span></td>
+              <td>  <span>PRO1000</span></td>
+              <td>  <span>1000</span></td>
+              <td>  <span>không</span></td>
+              <td>  <span>1000</span></td>
+              <td>  <span>700.000đ</span></td>
             </tr>
             <tr>
-              <td>  <span>F200N	</span></td>
-              <td>  	<span>200Mbps</span></td>
-              <td>  <span>	2Mbps</span></td>
-              <td>  	<span>	1 IP </span></td>
-              <td>  	<span>1.100.000đ</span></td>
+              <td>  <span>MESHPRO300</span></td>
+              <td>  <span>300</span></td>
+              <td>  <span>1 AP MESH WIFI6</span></td>
+              <td>  <span>1</span></td>
+              <td>  <span>450.000đ</span></td>
             </tr>
             <tr>
-              <td>  <span>F200Basic</span></td>
-              <td>  <span>200Mbps </span></td>
-              <td>  	<span>4Mbps	</span></td>
-              <td>  	<span>	1 IP </span></td>
-              <td>  	<span>	2.200.000đ</span></td>
+              <td>  <span>MESHPRO600</span></td>
+              <td>  <span>600</span></td>
+              <td>  <span>2 AP MESH WIFI6</span></td>
+              <td>  <span>2</span></td>
+              <td>  <span>650.000đ</span></td>
             </tr>
             <tr>
-              <td>  <span>F200Plus</span></td>
-              <td>  <span>200Mbps</span></td>
-              <td>  <span>6Mbps</span></td>
-              <td>  <span>	1 IP </span></td>
-              <td>  <span>4.400.000đ</span></td>
-            </tr>
-            <tr>
-              <td>  <span>F300N</span></td>
-              <td>  <span>300Mbps</span></td>
-              <td>  <span>	8Mbps</span></td>
-              <td>  <span>	5 IP </span></td>
-              <td>  <span>	6.050.000đ</span></td>
-            </tr>
-            <tr>
-              <td>  <span>F300Basic</span></td>
-              <td>  <span>300Mbps 	</span></td>
-              <td>  <span>	11Mbps</span></td>
-              <td>  <span>	5 IP </span></td>
-              <td>  <span>		7.700.000đ</span></td>
-            </tr>
-            <tr>
-              <td>  <span>F300Plus</span></td>
-              <td>  <span>300Mbps</span></td>
-              <td>  <span>	15Mbps</span></td>
-              <td>  <span>	9 IP </span></td>
-              <td>  <span>	9.900.000đ</span></td>
-            </tr>
-            <tr>
-              <td>  <span>F500Basic</span></td>
-              <td>  <span>500Mbps</span></td>
-              <td>  <span>	20Mbps</span></td>
-              <td>  <span>		9 IP  </span></td>
-              <td>  <span>		13.200.000đ</span></td>
-            </tr>
-            <tr>
-              <td>  <span>F500Plus</span></td>
-              <td>  <span>500Mbps</span></td>
-              <td>  <span>	25Mbps</span></td>
-              <td>  <span>			9 IP   </span></td>
-              <td>  <span>		17.600.000đ</span></td>
+              <td>  <span>MESHPRO1000</span></td>
+              <td>  <span>1000</span></td>
+              <td>  <span>2 AP MESH WIFI6</span></td>
+              <td>  <span>10 </span></td>
+              <td>  <span>880.000đ</span></td>
             </tr>
             <tr className={cx('last-column-tr')}>
                 <td colSpan="5">
                     <div className={cx('last-column')}>
                             <div className={cx('flex')}><SavingsIcon/> <strong>Khuyến mãi đặc biệt</strong> </div>
-                            <p> - Giá cước đã bao gồm 10% VAT.</p>
-                            <p> - Đóng trước 6 tháng tặng 01.</p>
-                            <p> - Đóng trước 12 tháng tặng 03.</p>
+                            <p> - Khách hàng sử dụng gói MESHPRO có thể mua thêm thiết bị Mesh.</p>
+                            <p> - Gói cước có IP di động được hỗ trợ khai báo ONT Brige để sử dụng Router của khách hàng.</p>
+                            <p> - Miễn phí lắp đặt cho khách hàng lần đầu tiên sử dụng.</p>
+                            <p> - Khách hàng được tặng thêm từ 1 đến 6 tháng sử dụng khi tham gia đóng trước gói trước</p>
+                            <p> - Cam kết tốc độ khi đo kiểm tra dây cáp mạng</p>
                     </div>
                 </td>
             </tr>
         </tbody>
-
-
       </table>
     </div>
   );

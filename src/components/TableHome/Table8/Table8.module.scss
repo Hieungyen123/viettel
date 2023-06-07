@@ -1,4 +1,11 @@
-.table3 {
+.table8 {
+    span {
+        display: block;
+        strong {
+            color: #f4845c;
+            font-size: 15px;
+        }
+    }
     table, th, td {
         border: 2px solid #647277;
         border-collapse: collapse;
@@ -9,7 +16,7 @@
     }
     td {
         height: 30px;
-        text-align: center;
+        text-align: center; 
     }
     tr {
        height: 35px;
