@@ -53,7 +53,7 @@ function Contact() {
                                 <p >Hãy để lại thông tin của bạn, chúng tôi sẽ liên lạc với bạn trong thời gian sớm nhất.</p>
                             </div>
 
-                            <div className={cx('content-phoneNum')} data-aos ='fade-down' data-aos-duration = '6500'><p>Hoặc liên hệ trực tiếp với tôi: <strong>0336123337</strong></p></div>
+                            <div className={cx('content-phoneNum')} data-aos ='fade-down' data-aos-duration = '6500'><p>Hoặc liên hệ trực tiếp với tôi: <strong>0978.070.070</strong></p></div>
                         </div>
                         <div className={cx('content-agile2')}> 
                             <form action="#" method="post">

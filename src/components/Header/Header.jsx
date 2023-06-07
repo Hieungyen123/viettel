@@ -12,7 +12,7 @@ import HomeIcon from '@mui/icons-material/Home';
 import ContactMailIcon from '@mui/icons-material/ContactMail';
 import SearchIcon from '@mui/icons-material/Search';
 import AdminPanelSettingsIcon from '@mui/icons-material/AdminPanelSettings';
-
+import LocalPhoneOutlinedIcon from '@mui/icons-material/LocalPhoneOutlined';
 
 import { Link } from "react-router-dom";
 
@@ -87,6 +87,12 @@ function Header() {
                                                 <ContactMailIcon className={cx('content-contact-icon')}/>
                                                 <p className = {activeTab === 3 ? 'active' : " "}>Liên Hệ</p>
                                             </Link>
+                                        </li>
+                                        <li>
+                                            <a href="tel:0978070070" className="page"> 
+                                                <LocalPhoneOutlinedIcon className={cx('content-contact-icon')}/>
+                                                <p>Hotline: <strong>0978.070.070</strong>  </p>
+                                            </a>
                                         </li>
                                     </ul>
                                 </div>

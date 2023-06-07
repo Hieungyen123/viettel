@@ -5,12 +5,15 @@ import CellWifiIcon from "@mui/icons-material/CellWifi";
 import ConnectedTvIcon from "@mui/icons-material/ConnectedTv";
 import BusinessIcon from '@mui/icons-material/Business';
 
+
 import Table1 from "../TableHome/Table1/Table1";
 import Table2 from "../TableHome/Table2/Table2";
 import Table3 from "../TableHome/Table3/Table3";
 import Table4 from "../TableHome/Table4/Table4";
 import Table5 from "../TableHome/Table5/Table5";
 import Table6 from "../TableHome/Table6/Table6";
+import Table7 from "../TableHome/Table7/Table7";
+
 
 import img from '../../Image/kenhtruyenhinh.jpg'
 import img2 from '../../Image/danhsachkenh.jpg'
@@ -35,7 +38,7 @@ function RegisterWifi() {
             <div className={cx("RegisterWifi-img")}></div>
           </div>
 
-{/*  */}
+
           <div className={cx("packages-wifi")}>
             <div>
               <h2>Danh sách các gói internet</h2>
@@ -85,7 +88,7 @@ function RegisterWifi() {
                     - Bảng giá gói cước và khuyến mãi khu vực{" "}
                     <strong>TP.HCM & HN</strong>. Giá cước có sự chênh lệch giữa
                     2 khu vực nội thành và ngoại thành. Chi tiết xin liên hệ ĐT:{" "}
-                    <strong>0336123337</strong>.
+                    <strong>0978.070.070</strong>.
                   </p>
                   <p>
                     - Bảng giá gói cước chỉ áp dụng cho{" "}
@@ -101,7 +104,7 @@ function RegisterWifi() {
               </div>
             </div>
           </div>
-          {/*  */}
+          
           <div className={cx("packages-wifi")}>
             <div><h2>Combo Truyền hình & Internet Viettel.</h2></div>
             <div className={cx("packages-item")}>
@@ -187,7 +190,7 @@ function RegisterWifi() {
               </div>
             </div>
           </div>
-          {/*  */}
+         
 
           <div className={cx("packages-wifi")}>
             <div><h2>Danh sách các kênh truyền hình.</h2></div>
@@ -225,6 +228,33 @@ function RegisterWifi() {
             </div>
           </div>
 
+          <div className={cx("packages-wifi")}>
+            <div><h2>Wifi 6 cho doanh nghiệp...</h2></div>
+            <div className={cx("packages-item")}>
+              <div className={cx("packages-item-title")}>
+                <div className={cx("title-packages")}>
+                  <CellWifiIcon />
+                  <h3>
+                        1. BẢNG GIÁ WIFI6 CHO DOANH NGHIỆP.
+                  </h3>
+                </div>
+                <div className={cx("content-title-packages")}>
+                  <p>
+                    - Viettel Telecom ra mắt gói cước WIFI Sin1 dành cho doanh nghiệp với <strong>vùng phủ, giá cước, công nghệ, thiết bị và tốc độ tốt nhất</strong>.
+                  </p>
+                  <p>- Công nghệ WIFI6 mới nhất trên thị trường, internet mượt mà với tốc độ vượt trội, WIFI phủ khắp mọi nơi. </p>
+                  <p>- Internet siêu tốc độ, lên tới 1Gbps, cam kết đảm bảo băng thông quốc tế tối thiểu.</p>
+                  <p>- Thiết bị moderm đặc biệt dành riêng cho doanh nghiệp, kết nối đồng thời 80 điểm cùng lúc.</p>
+                </div>
+              </div>
+              <div className={cx("packages-item-table")}>
+                <Table7 />
+              </div>
+              <div className={cx("packages-item-bars")}>
+                <div className={cx("bars")}></div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
