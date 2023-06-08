@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/viettel/static/css/main.0826d12f.css",
-    "main.js": "/viettel/static/js/main.d9997e01.js",
+    "main.css": "/viettel/static/css/main.0b64a815.css",
+    "main.js": "/viettel/static/js/main.a4efee81.js",
     "static/js/787.596c4548.chunk.js": "/viettel/static/js/787.596c4548.chunk.js",
     "static/media/danhsachkenh.jpg": "/viettel/static/media/danhsachkenh.5a264c983a72ed22a0c6.jpg",
     "static/media/kenhtruyenhinh.jpg": "/viettel/static/media/kenhtruyenhinh.7cce3ea5db7782e47682.jpg",
@@ -19,12 +19,12 @@
     "static/media/slick.ttf": "/viettel/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/viettel/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/viettel/index.html",
-    "main.0826d12f.css.map": "/viettel/static/css/main.0826d12f.css.map",
-    "main.d9997e01.js.map": "/viettel/static/js/main.d9997e01.js.map",
+    "main.0b64a815.css.map": "/viettel/static/css/main.0b64a815.css.map",
+    "main.a4efee81.js.map": "/viettel/static/js/main.a4efee81.js.map",
     "787.596c4548.chunk.js.map": "/viettel/static/js/787.596c4548.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0826d12f.css",
-    "static/js/main.d9997e01.js"
+    "static/css/main.0b64a815.css",
+    "static/js/main.a4efee81.js"
   ]
 }
