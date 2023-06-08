@@ -59,7 +59,7 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <div className={cx('Footer-title')}><h4>Developed by ...</h4></div>
+            <div className={cx('Footer-title')}></div>
         </div>
     );
 }
