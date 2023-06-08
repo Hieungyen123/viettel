@@ -6,6 +6,7 @@ import DefaultLayout from './components/DefaultLayout/DefaultLayout';
 import { Routes, Route } from 'react-router-dom';
 
 import ScrollToTop from './scrollToTop';
+import PhoneIconBottom from './PhoneIconBottom'
 import Home from './Pages/Home/Home';
 import Contact from './Pages/Contact/Contact';
 import Province from './Pages/Province/Province';
@@ -18,7 +19,7 @@ function App() {
   return (
     <React.Fragment>
         <div className="App">
-          <ScrollToTop/>
+          <PhoneIconBottom/>
           <Routes>
             <Route
               exact

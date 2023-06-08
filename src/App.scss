@@ -131,3 +131,98 @@ td {
   align-items: center;
   justify-content: center;
 }
+
+
+
+.PhoneIconBottom {
+  position: fixed;
+  bottom: 30px;
+  padding:  10px 0;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  z-index: 2000;
+  cursor: pointer;
+  width: 200px;
+  // overflow: hidden;
+  
+  .PhoneBottomIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    padding: 12px;
+    background-color: rgba(5,231,118,1);
+    border-radius: 40%;
+    // overflow: hidden;
+    
+    z-index: 200;
+    
+    .IconPhoneBottom {
+      display:block;
+      // width: 60px;
+      // height: 60px;
+      // font-size: 40px;
+      // margin:50px auto 0;
+      color: white;
+      animation: ring 4s .7s ease-in-out infinite;
+      transform-origin: 50% 4px;
+      
+    }
+  }
+  .phoneNumber{
+    position: absolute;
+    left: 30px;
+    overflow: hidden;
+    width: 130px;
+    border-radius: 20px;
+    .PhoneNumberHide {
+      position: relative;
+      background-color: rgba(5,231,118,1);
+      border-radius: 0 50px  50px 0 ;
+      font-size: 17px;
+      display: block;
+      padding: 7px;
+      // position: static;
+      right: 180px;
+      z-index: 100;
+      transition: right 1s ease-in;
+      overflow: hidden;
+      // color: rgb(238, 0, 51);
+      text-decoration: none;
+      color: white;
+
+      
+    }
+    .PhoneNumberShow {
+      right: -10px;
+    }
+  }
+  
+}
+
+
+
+@keyframes ring {
+  0% { transform: rotate(0); }
+  5% { transform: rotate(20deg); }
+  10% { transform: rotate(-20deg); }
+  15% { transform: rotate(30deg); }
+  20% { transform: rotate(-30deg); }
+  25% { transform: rotate(30deg); }
+  30% { transform: rotate(-28deg); }
+  35% { transform: rotate(20deg); }
+  40% { transform: rotate(-20deg); }
+  45% { transform: rotate(22deg); }
+  50% { transform: rotate(-20deg); }
+  55% { transform: rotate(18deg); }
+  60% { transform: rotate(-16deg); }
+  65% { transform: rotate(14deg); }
+  70% { transform: rotate(-12deg); }
+  75% { transform: rotate(10deg); }
+  80% { transform: rotate(-8deg); }
+  85% { transform: rotate(6deg); }
+  90% { transform: rotate(-4deg); }
+  95% { transform: rotate(2deg); }
+  100% { transform: rotate(-1deg); }
+}

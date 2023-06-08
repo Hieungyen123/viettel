@@ -50,7 +50,7 @@ function Footer() {
                                     <div className={cx('Footer-contact-icon')}>
                                         <a href="/#"><FacebookIcon className={cx('icon')}/> <p> <strong>Facebook:</strong>  name of facebook  </p> </a>
                                         <a href="/#"><LocalPhoneIcon className={cx('icon')}/> <p><strong>Phone:</strong> 0978.070.070</p> </a>
-                                        <a href="/#"><EmailIcon className={cx('icon')}/><p><strong>Mail:</strong> dung.nvbhld@gmail.com</p> </a>
+                                        <a href="/linhleduy1290@gmail.com"><EmailIcon className={cx('icon')}/><p><strong>Mail:</strong> linhleduy1290@gmail.com</p> </a>
                                     </div>
                                 </div>
                             </div>
