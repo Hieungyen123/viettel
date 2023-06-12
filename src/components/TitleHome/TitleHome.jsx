@@ -18,7 +18,7 @@ function TitleHome() {
                             Siêu Tốc 150Mbps( Giá đã bao gồm VAT) sẽ được trang bị modem wifi 4 cổng 2 băng tần là 2,4Ghz và 5.0Ghz. 
                             Tặng đến 03 tháng cước khi khách hàng tham gia đóng cước trước , hỗ trợ nhiệt tình, nhanh chóng.
                         </p>
-                        <p>Quý khách có nhu cầu lắp đặt wifi viettel xin vui lòng để lại thông tin vào Form TƯ VẤN MIỄN PHÍ hoặc gọi hotline: <strong>0336123337</strong></p>
+                        <p>Quý khách có nhu cầu lắp đặt wifi viettel xin vui lòng để lại thông tin vào Form TƯ VẤN MIỄN PHÍ hoặc gọi hotline: <strong>0978070070</strong></p>
                     </div>
                     <div className={cx('image')}>
                         <img src={img} alt="" />

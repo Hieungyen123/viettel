@@ -11,7 +11,7 @@ function PhoneIconBottom() {
     return (  
         <div  className='PhoneIconBottom'>
             <div className='PhoneBottomIcon' onClick={() => handleShow()}>
-                <PhoneCallbackIcon className='IconPhoneBottom'/>
+                <PhoneCallbackIcon className='IconPhoneBottom Phone'/>
             </div>
             <div className='phoneNumber'><a href="tel:0978070070" className={show ? 'PhoneNumberHide' : 'PhoneNumberHide PhoneNumberShow '}>0978070070</a></div>
         </div>
